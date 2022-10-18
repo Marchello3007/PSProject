@@ -43,7 +43,7 @@ const HeaderRow = (props: Props) => {
 
                             <div className="header-menu-item-mobile">
                                 <NavLink
-                                    to="/about"
+                                    to="/services"
                                     className={({ isActive }) =>
                                         isActive
                                             ? classes.activeMobileMenuItem
@@ -60,7 +60,7 @@ const HeaderRow = (props: Props) => {
 
                             <div className="header-menu-item-mobile">
                                 <NavLink
-                                    to="/delivery"
+                                    to="/clients"
                                     className={({ isActive }) =>
                                         isActive
                                             ? classes.activeMobileMenuItem
@@ -77,7 +77,7 @@ const HeaderRow = (props: Props) => {
 
                             <div className="header-menu-item-mobile">
                                 <NavLink
-                                    to="/reviews"
+                                    to="/contacts"
                                     className={({ isActive }) =>
                                         isActive
                                             ? classes.activeMobileMenuItem
@@ -120,29 +120,32 @@ const HeaderRow = (props: Props) => {
                             <div className="header-messenger-text">
                                 {/* Come to us */}
                             </div>
+
                             <div className="header-contact-desktop">
                                 {/* <a href="">Office</a> */}
                                 <Link
                                     className={classes.textDcorationNone}
-                                    to={`../4`}
+                                    to={`../repaircenter`}
                                 >
                                     Сервісний Центр
                                 </Link>
                             </div>
+
                             <div className="header-contact-desktop">
                                 {/* <a href="">Workshop</a> */}
                                 <Link
                                     className={classes.textDcorationNone}
-                                    to={`../5`}
+                                    to={`../receptionpoints`}
                                 >
                                     Пункти прийому
                                 </Link>
                             </div>
+
                             <div className="header-contact-desktop">
                                 {/* <a href="">Warehouse</a> */}
                                 <Link
                                     className={classes.textDcorationNone}
-                                    to={`../6`}
+                                    to={`../delivery`}
                                 >
                                     Виклик кур'єра
                                 </Link>
@@ -167,7 +170,7 @@ const HeaderRow = (props: Props) => {
                     </NavLink>
 
                     <NavLink
-                        to="/about"
+                        to="/services"
                         className={({ isActive }) =>
                             isActive
                                 ? classes.activeDesktopMenuItem
@@ -182,7 +185,7 @@ const HeaderRow = (props: Props) => {
                     </NavLink>
 
                     <NavLink
-                        to="/delivery"
+                        to="/clients"
                         className={({ isActive }) =>
                             isActive
                                 ? classes.activeDesktopMenuItem
@@ -197,7 +200,7 @@ const HeaderRow = (props: Props) => {
                     </NavLink>
 
                     <NavLink
-                        to="/reviews"
+                        to="/contacts"
                         className={({ isActive }) =>
                             isActive
                                 ? classes.activeDesktopMenuItem
@@ -237,29 +240,32 @@ const HeaderRow = (props: Props) => {
                             <div className="header-messenger-text">
                                 {/* Come to us */}
                             </div>
+
                             <div className="header-contact-mobile">
                                 {/* <a href="">Office</a> */}
                                 <Link
                                     className={classes.textDcorationNone}
-                                    to={`../4`}
+                                    to={`../repaircenter`}
                                 >
                                     Сервісний Центр
                                 </Link>
                             </div>
+
                             <div className="header-contact-mobile">
                                 {/* <a href="">Workshop</a> */}
                                 <Link
                                     className={classes.textDcorationNone}
-                                    to={`../5`}
+                                    to={`../receptionpoints`}
                                 >
                                     Пункти прийому
                                 </Link>
                             </div>
+
                             <div className="header-contact-mobile">
                                 {/* <a href="">Warehouse</a> */}
                                 <Link
                                     className={classes.textDcorationNone}
-                                    to={`../6`}
+                                    to={`../delivery`}
                                 >
                                     Виклик кур'єра
                                 </Link>

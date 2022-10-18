@@ -26,10 +26,12 @@ const HeaderSlider = (props: Props) => {
         <div className="header-slider">
             <div className="header-slider-text">
                 <div className="header-slider-title">
-                    <h2>Johnny</h2>
-                    <h2>Go!</h2>
+                    <h2>Premium</h2>
+                    <h2>Service</h2>
                 </div>
-                <h6 className="header-slider-description">Welding Services</h6>
+                <h6 className="header-slider-description">
+                    Спеціалізований Сервісний Центр
+                </h6>
             </div>
 
             <Slider {...settings}>

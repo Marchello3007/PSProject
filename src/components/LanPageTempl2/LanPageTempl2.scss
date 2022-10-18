@@ -1,0 +1,127 @@
+* {box-sizing: border-box;}
+body{margin: 0; padding: 0;}
+
+/*** only mobile 1-425px***/ 
+@media(min-width:1px) {
+    .page-templ-container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        // padding-top: 5px;
+        // padding-bottom: 5px;
+        background-color: #c8cdd0;
+    }
+
+    .head-block {
+        display: grid;
+        grid-template-areas: 
+        "head-block-ttl"
+        "head-block-slider"
+        "head-block-text";
+        background-color: white;
+    }
+
+    .head-block-ttl {
+        // background-color: gold;
+        grid-area:head-block-ttl;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        font-size: 5vw;
+    }
+    .head-block-slider {
+        // background-color: orange;
+        grid-area:head-block-slider;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+
+    }
+
+.head-block-slider-size {
+    width: 70vw;
+}
+
+    .head-block-text {
+        // background-color: greenyellow;
+        grid-area:head-block-text;
+        display: grid;
+        grid-template-rows: 1rf 4;
+    }
+
+    .head-block-text-item {
+        display: flex;
+        align-items: center;
+        transition: 0.3s;
+        text-decoration: none;
+        color: black;
+    }
+    .head-block-text-item:hover {
+        background-color: gray;
+    }
+
+    .head-block-text-item-square {
+        background-color: #c8cdd0;
+        border-radius: 2px;
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        :first-child{
+            color: white;
+            font-size: 40px;
+        }
+    }
+
+
+    
+
+   
+
+}
+
+
+
+/*** mobile 426-767px***/ 
+@media(min-width:426px) {}
+
+
+/*** tablet => sm  768-991***/ 
+@media(min-width:768px) {
+    .page-templ-container {
+        padding-left: 100px;
+        padding-right: 100px;
+        // padding-top: 10px;
+        // padding-bottom: 10px;
+        // background-color: gray;
+        // background-color: red;
+    }
+
+    .head-block {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "head-block-ttl head-block-ttl"
+        "head-block-slider head-block-text";
+
+    }
+
+    .head-block-ttl {
+        font-size: 3vw;
+    }
+
+    .head-block-slider-size {
+        width: 35vw;
+    }
+
+   
+}
+    
+
+/*** laptop => md 992-1199***/ 
+@media(min-width:992px) {}
+    
+/*** desktop => lg 1200***/ 
+@media(min-width:1200px) {}
+
