@@ -10,6 +10,7 @@ const LanPageTempl2 = (props: Props) => {
     return (
         <>
             <div className="page-templ-container">
+                {/* .......Head Block......... */}
                 <div className="head-block">
                     <div className="head-block-ttl">
                         {/* <HeadPageSlider /> */}
@@ -52,7 +53,7 @@ const LanPageTempl2 = (props: Props) => {
                             <div className="head-block-text-item-square">
                                 <HandymanIcon />
                             </div>
-                            Терміни тагарантія
+                            Терміни та гарантія
                         </Link>
 
                         <Link
@@ -63,6 +64,138 @@ const LanPageTempl2 = (props: Props) => {
                                 <HandymanIcon />
                             </div>
                             Питання та відповіді
+                        </Link>
+                    </div>
+                </div>
+
+                {/* .......Select Block......... */}
+                <div className="select-block">
+                    <div className="select-block-ttl">
+                        Оберіть Ваш варіант, щоб ми могли більш детально
+                        розповісти Вам про ремонт вашого пилососа.
+                    </div>
+
+                    <div className="select-block-items-zone">
+                        <Link
+                            className="select-block-item"
+                            to={`../repaircenter`}
+                        >
+                            <div className="select-block-text-item-square">
+                                <img
+                                    src="./images/remont_pilesosov_ph.jpg"
+                                    alt="Побутові пилососи"
+                                />
+                            </div>
+
+                            <div className="select-block-item-name">
+                                Побутові пилососи
+                            </div>
+                        </Link>
+
+                        <Link
+                            className="select-block-item"
+                            to={`../repaircenter`}
+                        >
+                            <div className="select-block-text-item-square">
+                                <img
+                                    src="./images/robo_vcc.jpg"
+                                    alt="Роботи пилососи"
+                                />
+                            </div>
+
+                            <div className="select-block-item-name">
+                                Роботи пилососи
+                            </div>
+                        </Link>
+
+                        <Link
+                            className="select-block-item"
+                            to={`../repaircenter`}
+                        >
+                            <div className="select-block-text-item-square">
+                                <img
+                                    src="./images/BatVCC3.jpg"
+                                    alt="Акумуляторні пилососи"
+                                />
+                            </div>
+
+                            <div className="select-block-item-name">
+                                Акумуляторні пилососи
+                            </div>
+                        </Link>
+
+                        <Link
+                            className="select-block-item"
+                            to={`../repaircenter`}
+                        >
+                            <div className="select-block-text-item-square">
+                                <img
+                                    src="./images/remont_promyshlennyh_pylesosov.jpeg"
+                                    alt="Промислові пилососи"
+                                />
+                            </div>
+
+                            <div className="select-block-item-name">
+                                Промислові пилососи
+                            </div>
+                        </Link>
+                    </div>
+                </div>
+
+                {/* .......Options Block......... */}
+                <div className="options-block">
+                    <div className="options-block-ttl">
+                        Оберіть Ваш варіант, щоб ми могли більш детально
+                        розповісти Вам про ремонт вашого пилососа.
+                    </div>
+
+                    <div className="options-block-items-zone">
+                        <Link
+                            className="options-block-item"
+                            to={`../repaircenter`}
+                        >
+                            <div className="options-block-text-item-square">
+                                <img
+                                    src="./images/dostavkapres.jpg"
+                                    alt="Замовити кур'єра"
+                                />
+                            </div>
+
+                            <div className="options-block-item-name">
+                                Замовити кур'єра
+                            </div>
+                        </Link>
+
+                        <Link
+                            className="options-block-item"
+                            to={`../repaircenter`}
+                        >
+                            <div className="options-block-text-item-square">
+                                <img
+                                    src="./images/geolocation.jpg"
+                                    alt="Привезти самостійно"
+                                />
+                            </div>
+
+                            <div className="options-block-item-name">
+                                Привезти самостійно
+                            </div>
+                        </Link>
+
+                        <Link
+                            className="options-block-item"
+                            to={`../repaircenter`}
+                        >
+                            <div className="options-block-text-item-square">
+                                <img
+                                    src="./images/NovaPoshta.jpg"
+                                    alt="Відправити Новою Поштою"
+                                />
+                            </div>
+
+                            <div className="options-block-item-name">
+                                Відправити Новою Поштою
+                            </div>
                         </Link>
                     </div>
                 </div>
