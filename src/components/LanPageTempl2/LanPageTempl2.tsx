@@ -142,67 +142,67 @@ const LanPageTempl2 = (props: Props) => {
                     </div>
                 </div>
 
-                {/* .......Options Block......... */}
-                <div className="options-block">
-                    <div className="options-block-ttl">
+                {/* .......Options Block 01......... */}
+                {/* <div className="options-block-01">
+                    <div className="options-block-ttl-01">
                         Оберіть Ваш варіант, щоб ми могли більш детально
                         розповісти Вам про ремонт вашого пилососа.
                     </div>
 
-                    <div className="options-block-items-zone">
+                    <div className="options-block-items-zone-01">
                         <Link
-                            className="options-block-item"
+                            className="options-block-item-01"
                             to={`../repaircenter`}
                         >
-                            <div className="options-block-text-item-square">
+                            <div className="options-block-item-image-square-01">
                                 <img
                                     src="./images/dostavkapres.jpg"
                                     alt="Замовити кур'єра"
                                 />
                             </div>
 
-                            <div className="options-block-item-name">
+                            <div className="options-block-item-name-01">
                                 Замовити кур'єра
                             </div>
                         </Link>
 
                         <Link
-                            className="options-block-item"
+                            className="options-block-item-01"
                             to={`../repaircenter`}
                         >
-                            <div className="options-block-text-item-square">
+                            <div className="options-block-item-image-square-01">
                                 <img
                                     src="./images/geolocation.jpg"
                                     alt="Привезти самостійно"
                                 />
                             </div>
 
-                            <div className="options-block-item-name">
+                            <div className="options-block-item-name-01">
                                 Привезти самостійно
                             </div>
                         </Link>
 
                         <Link
-                            className="options-block-item"
+                            className="options-block-item-01"
                             to={`../repaircenter`}
                         >
-                            <div className="options-block-text-item-square">
+                            <div className="options-block-item-image-square-01">
                                 <img
                                     src="./images/NovaPoshta.jpg"
                                     alt="Відправити Новою Поштою"
                                 />
                             </div>
 
-                            <div className="options-block-item-name">
+                            <div className="options-block-item-name-01">
                                 Відправити Новою Поштою
                             </div>
                         </Link>
                     </div>
-                </div>
+                </div> */}
 
-                {/* .......Options Block 2......... */}
-                <div className="options-block-2">
-                    <div className="options-block-ttl-2">
+                {/* .......Options Block......... */}
+                <div className="options-block">
+                    <div className="options-block-ttl">
                         Ми піклуємось про те, щоб Вам було зручно скористатись
                         нашими послугами. Ви можете безкоштовно замовити виїзд
                         кур'єра по Києву чи привезти пилосос на ремонт
@@ -213,56 +213,56 @@ const LanPageTempl2 = (props: Props) => {
                         будь-якого іншого міста України.
                     </div>
 
-                    <div className="options-block-items-zone-2">
+                    <div className="options-block-items-zone">
                         <Link
-                            className="options-block-item-link-2"
+                            className="options-block-item-link"
                             to={`../repaircenter`}
                         >
-                            <div className="options-block-item-2">
-                                <div className="options-block-text-item-square-2">
+                            <div className="options-block-item">
+                                <div className="options-block-item-image-square">
                                     <img
                                         src="./images/dostavkapres.jpg"
                                         alt="Замовити кур'єра"
                                     />
                                 </div>
 
-                                <div className="options-block-item-name-2">
+                                <div className="options-block-item-name">
                                     Замовити кур'єра
                                 </div>
                             </div>
                         </Link>
 
                         <Link
-                            className="options-block-item-link-2"
+                            className="options-block-item-link"
                             to={`../repaircenter`}
                         >
-                            <div className="options-block-item-2">
-                                <div className="options-block-text-item-square-2">
+                            <div className="options-block-item">
+                                <div className="options-block-item-image-square">
                                     <img
                                         src="./images/geolocation.jpg"
                                         alt="Привезти самостійно"
                                     />
                                 </div>
 
-                                <div className="options-block-item-name-2">
+                                <div className="options-block-item-name">
                                     Привезти самостійно
                                 </div>
                             </div>
                         </Link>
 
                         <Link
-                            className="options-block-item-link-2"
+                            className="options-block-item-link"
                             to={`../repaircenter`}
                         >
-                            <div className="options-block-item-2">
-                                <div className="options-block-text-item-square-2">
+                            <div className="options-block-item">
+                                <div className="options-block-item-image-square">
                                     <img
                                         src="./images/NovaPoshta.jpg"
                                         alt="Відправити Новою Поштою"
                                     />
                                 </div>
 
-                                <div className="options-block-item-name-2">
+                                <div className="options-block-item-name">
                                     Відправити Новою Поштою
                                 </div>
                             </div>
